@@ -1,18 +1,3 @@
-# janet reply key bindings
-#(global-set-key (kbd "C-c C-p") 'ijanet)
-#(global-set-key (kbd "C-c C-b") 'ijanet-eval-buffer)
-#(global-set-key (kbd "C-c C-l") 'ijanet-eval-line)
-#(global-set-key (kbd "C-c C-r") 'ijanet-eval-region)
-
-# (with [f (file/open "1.txt")]
-#       (var a @[])
-#       (while true
-# 	(var l (file/read f :line))
-# 	(if l
-# 	  (array/push a l)
-# 	  (break)))
-#       (print a))
-
 (defn find-2020-thruple
   [nums]
   (var val 0)
